@@ -57,3 +57,6 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.LoginView.xaml.g.cs
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.exe
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.pdb
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.HomeView.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.HomeViewDetail.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.HomeViewMaster.xaml.g.cs

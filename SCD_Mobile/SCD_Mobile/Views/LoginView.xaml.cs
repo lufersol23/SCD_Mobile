@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using SCD_Mobile.ViewModels;
 
 namespace SCD_Mobile.Views
 {
@@ -10,6 +11,8 @@ namespace SCD_Mobile.Views
         public LoginView()
         {
             InitializeComponent();
+
+            BindingContext = new LoginViewModel();
         }
     }
 }

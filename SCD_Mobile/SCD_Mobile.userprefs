@@ -1,14 +1,30 @@
 ﻿<Properties StartupConfiguration="{3BED588D-EB84-463F-A241-73BA9021A5B1}|Default">
   <MonoDevelop.Ide.ItemProperties.SCD__Mobile.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SCD_Mobile/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCD_Mobile/Views/HomeViewMaster.xaml">
     <Files>
-      <File FileName="SCD_Mobile/App.xaml.cs" Line="12" Column="37" />
-      <File FileName="SCD_Mobile/Views/LoginView.xaml" Line="13" Column="43" />
-      <File FileName="SCD_Mobile/Views/LoginView.xaml.cs" Line="1" Column="1" />
-      <File FileName="iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.LoginView.xaml.g.cs" Line="19" Column="1" />
-      <File FileName="SCD_Mobile/Models/LoginModel.cs" Line="1" Column="1" />
-      <File FileName="SCD_Mobile/ViewModels/LoginViewModel.cs" Line="1" Column="1" />
+      <File FileName="SCD_Mobile/Models/MenuItemsModel.cs" Line="20" Column="64" />
+      <File FileName="SCD_Mobile/ViewModels/HomeViewMasterViewModel.cs" Line="12" Column="9" />
+      <File FileName="SCD_Mobile/ViewModels/LoginViewModel.cs" Line="38" Column="1" />
+      <File FileName="SCD_Mobile/Views/HomeViewMaster.xaml.cs" Line="18" Column="1" />
+      <File FileName="SCD_Mobile/Views/HomeViewMaster.xaml" Line="31" Column="44" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SCD_Mobile" expanded="True" selected="True">
+            <Node name="SCD_Mobile" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HomeViewMaster.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="SCD_Mobile.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

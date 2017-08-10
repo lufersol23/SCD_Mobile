@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SCD_Mobile.Views.LoginView">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="SCD_Mobile.Views.LoginView"
+            BackgroundColor="White">
 	<ContentPage.Content>
-        <StackLayout>
-            <StackLayout BackgroundColor="Blue">
+        <StackLayout x:Name="stkContainer">
+            <!--Logo Image-->
+            <StackLayout>
+                <Image Source=""/>
             </StackLayout>
-            <StackLayout BackgroundColor="White">
+            <!--Login Panel-->
+            <StackLayout Margin="0,200">
+                <StackLayout Margin="50,0">
+                    <Label Text="Email" TextColor="#9b9b9b"/>
+                    <Entry Placeholder="Digiar email" InputTransparent="true" TextColor="#4a4a4a"/>
+                    <Label Text="Password" TextColor="#9b9b9b"/>
+                    <Entry Placeholder="Digiar password" InputTransparent="true" TextColor="#4a4a4a" IsPassword="true"/>
+                    <Button Text="Login" Command="{Binding LoginCommand}" />
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="No tiene una cuenta?"/>
+                        <Label Text="Conoce mas" />
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
 	</ContentPage.Content>

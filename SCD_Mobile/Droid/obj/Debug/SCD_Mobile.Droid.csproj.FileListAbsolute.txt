@@ -42,3 +42,6 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.LoginView.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeView.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeViewDetail.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeViewMaster.xaml.g.cs
