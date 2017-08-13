@@ -5,6 +5,8 @@ namespace SCD_Mobile
 {
     public partial class App : Application
     {
+        static public int ScreenWidth;
+
         public App()
         {
             InitializeComponent();

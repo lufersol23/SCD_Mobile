@@ -1,36 +1,24 @@
 ﻿<Properties StartupConfiguration="{3BED588D-EB84-463F-A241-73BA9021A5B1}|Default">
   <MonoDevelop.Ide.ItemProperties.SCD__Mobile.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SCD_Mobile/Views/HomeViewMaster.xaml">
+  <MonoDevelop.Ide.ItemProperties.SCD__Mobile HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCD_Mobile/Views/HomeView.xaml.cs">
     <Files>
-      <File FileName="SCD_Mobile/Models/MenuItemsModel.cs" Line="20" Column="64" />
-      <File FileName="SCD_Mobile/ViewModels/HomeViewMasterViewModel.cs" Line="12" Column="9" />
-      <File FileName="SCD_Mobile/ViewModels/LoginViewModel.cs" Line="38" Column="1" />
-      <File FileName="SCD_Mobile/Views/HomeViewMaster.xaml.cs" Line="18" Column="1" />
-      <File FileName="SCD_Mobile/Views/HomeViewMaster.xaml" Line="31" Column="44" />
+      <File FileName="SCD_Mobile/Views/HomeViewMaster.xaml" Line="61" Column="1" />
+      <File FileName="SCD_Mobile/Models/MenuItemsModel.cs" Line="25" Column="88" />
+      <File FileName="packages/Xamarin.Forms.2.3.4.247/build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets" Line="70" Column="11" />
+      <File FileName="iOS/obj/iPhoneSimulator/Debug/SCD_Mobile.iOS.Views.HomeView.xaml.g.cs" Line="18" Column="36" />
+      <File FileName="SCD_Mobile/Views/HomeView.xaml.cs" Line="16" Column="1" />
+      <File FileName="SCD_Mobile/Views/HomeView.xaml" Line="16" Column="20" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SCD_Mobile" expanded="True" selected="True">
-            <Node name="SCD_Mobile" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="HomeViewMaster.xaml" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="SCD_Mobile.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/iOS/SCD_Mobile.iOS.csproj" relfile="iOS/SCD_Mobile.iOS.csproj" line="124" column="1" />
+      <Breakpoint file="/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/SCD_Mobile/Views/HomeViewMaster.xaml" relfile="SCD_Mobile/Views/HomeViewMaster.xaml" line="13" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SCD__Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38C27435-D70F-4A89-B2FC-8A2F44DA998C" />
+  <MonoDevelop.Ide.ItemProperties.SCD__Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.24A4E74F-FE36-42B3-B1ED-665CA40595F6" />
   <MultiItemStartupConfigurations />
 </Properties>

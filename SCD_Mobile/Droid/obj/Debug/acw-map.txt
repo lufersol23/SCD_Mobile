@@ -1,7 +1,15 @@
+XLabs.Forms.Controls.CircleImageRenderer, SCD_Mobile.Droid;md51e20445deda77017c504b220cf62bcac.CircleImageRenderer
+XLabs.Forms.Controls.CircleImageRenderer, SCD_Mobile.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51e20445deda77017c504b220cf62bcac.CircleImageRenderer
+XLabs.Forms.Controls.CircleImageRenderer;md51e20445deda77017c504b220cf62bcac.CircleImageRenderer
+xlabs.forms.controls.CircleImageRenderer;md51e20445deda77017c504b220cf62bcac.CircleImageRenderer
 SCD_Mobile.Droid.MainActivity, SCD_Mobile.Droid;md557133eeaf27e6bb03d7a6603e624ee1c.MainActivity
 SCD_Mobile.Droid.MainActivity, SCD_Mobile.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md557133eeaf27e6bb03d7a6603e624ee1c.MainActivity
 SCD_Mobile.Droid.MainActivity;md557133eeaf27e6bb03d7a6603e624ee1c.MainActivity
 scd_mobile.droid.MainActivity;md557133eeaf27e6bb03d7a6603e624ee1c.MainActivity
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android, Version=1.8.1.0, Culture=neutral, PublicKeyToken=null;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
+imagecircle.forms.plugin.droid.ImageCircleRenderer;md5f99670a967ca5f40091da02b64448d9f.ImageCircleRenderer
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

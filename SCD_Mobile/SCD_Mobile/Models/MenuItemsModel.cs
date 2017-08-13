@@ -5,7 +5,7 @@ namespace SCD_Mobile.Models
     public class MenuItemsModel
     {
         public int Id { set; get; }
-        public string Name { set; get; }
+        public string Title { set; get; }
         public string IconPath { set; get; }
 
         public MenuItemsModel()
@@ -16,14 +16,13 @@ namespace SCD_Mobile.Models
         {
             ObservableCollection<MenuItemsModel> lstMenuItems = new ObservableCollection<MenuItemsModel>(new[]{
 
-                new MenuItemsModel {Id=1, Name="",IconPath=""},
-                new MenuItemsModel {Id=2, Name="",IconPath=""},
-                new MenuItemsModel {Id=3, Name="",IconPath=""},
-                new MenuItemsModel {Id=4, Name="",IconPath=""},
-                new MenuItemsModel {Id=5, Name="",IconPath=""},
-                new MenuItemsModel {Id=6, Name="",IconPath=""},
-                new MenuItemsModel {Id=7, Name="",IconPath=""},
-                new MenuItemsModel {Id=8, Name="",IconPath=""}
+                new MenuItemsModel {Id=1, Title="Inicio",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=2, Title="Citas",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=3, Title="Pacientes",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=4, Title="Cuentas",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=5, Title="Estadisticas",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=6, Title="Inventario",IconPath="home_icon.png"},
+                new MenuItemsModel {Id=7, Title="Mantenimiento",IconPath="home_icon.png"}
             });
 
             return lstMenuItems;

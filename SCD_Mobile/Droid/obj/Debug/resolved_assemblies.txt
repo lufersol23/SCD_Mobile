@@ -1,5 +1,7 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/SCD_Mobile.Droid.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/FormsViewGroup.dll
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/ImageCircle.Forms.Plugin.Abstractions.dll
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/ImageCircle.Forms.Plugin.Android.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
@@ -20,6 +22,7 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.Runtime.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.Collections.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll

@@ -15,6 +15,7 @@ namespace SCD_Mobile.iOS
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());
+            App.ScreenWidth = (int)UIScreen.MainScreen.Bounds.Width;
 
             return base.FinishedLaunching(app, options);
         }

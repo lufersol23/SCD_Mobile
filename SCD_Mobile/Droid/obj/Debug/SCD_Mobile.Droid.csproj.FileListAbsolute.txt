@@ -45,3 +45,15 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeView.xaml.g.cs
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeViewDetail.xaml.g.cs
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/SCD_Mobile.Droid.Views.HomeViewMaster.xaml.g.cs
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Android.dll
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.pdb
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.xml
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Android.pdb
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Android.xml
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll.mdb
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/bin/Debug/ImageCircle.Forms.Plugin.Android.dll.mdb
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/menu_header_background.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/default_female_user.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/default_male_user.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/home_icon.png

@@ -1,27 +1,53 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using SCD_Mobile.Models;
 
 namespace SCD_Mobile.ViewModels
 {
     public class HomeViewMasterViewModel : INotifyPropertyChanged
     {
-        public HomeViewMasterViewModel() 
-        {
-        }
+		#region Instances
 
+        //Menu Items List
+		private ObservableCollection<MenuItemsModel> _lstMenuItems = new ObservableCollection<MenuItemsModel>();
 
-		#region  Property Change
-
-		public event PropertyChangedEventHandler PropertyChanged;
-
-		protected void NotifyPropertyChanged(String info)
+		public ObservableCollection<MenuItemsModel> lstMenuItems
 		{
-			if (PropertyChanged != null)
+			get
 			{
-				PropertyChanged(this, new PropertyChangedEventArgs(info));
+				return _lstMenuItems;
+			}
+			set
+			{
+				_lstMenuItems = value;
+				OnPropertyChanged("_lstMenuItems");
 			}
 		}
 
+        MenuItemsModel menuItemM = new MenuItemsModel();
+
+
+        #endregion
+
+        public HomeViewMasterViewModel() 
+        {
+            InitClass();
+        }
+
+        private void InitClass()
+        {
+            lstMenuItems = menuItemM.getMenuItems();
+        }
+
+
+		#region INotifyPropertyChanged Implementation
+		public event PropertyChangedEventHandler PropertyChanged;
+		protected void OnPropertyChanged(string propertyName)
+		{
+			if (PropertyChanged != null) // if there is any subscribers 
+				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
 		#endregion
 	}
 }

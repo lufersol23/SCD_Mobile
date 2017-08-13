@@ -13,5 +13,6 @@ namespace SCD_Mobile.Views
 
             BindingContext = new HomeViewMasterViewModel();
         }
+
     }
 }
