@@ -13,9 +13,9 @@
             <StackLayout Margin="0,200">
                 <StackLayout Margin="50,0">
                     <Label Text="Email" TextColor="#9b9b9b"/>
-                    <Entry Placeholder="Digiar email" InputTransparent="true" TextColor="#4a4a4a"/>
+                    <Entry Placeholder="Digitar email"  TextColor="#4a4a4a"/>
                     <Label Text="Password" TextColor="#9b9b9b"/>
-                    <Entry Placeholder="Digiar password" InputTransparent="true" TextColor="#4a4a4a" IsPassword="true"/>
+                    <Entry Placeholder="Digitar password" TextColor="#4a4a4a" IsPassword="true"/>
                     <Button Text="Login" Command="{Binding LoginCommand}" />
                     <StackLayout Orientation="Horizontal">
                         <Label Text="No tiene una cuenta?"/>

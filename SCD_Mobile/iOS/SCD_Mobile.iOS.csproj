@@ -123,11 +123,23 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Controls\CircleImageRenderer.cs" />
+    <Compile Include="Controls\NoLineNavigationRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\menu_header_background.png" />
     <BundleResource Include="Resources\default_female_user.png" />
     <BundleResource Include="Resources\default_male_user.png" />
+    <BundleResource Include="Resources\home_icon.png" />
+    <BundleResource Include="Resources\accounts_icon.png" />
+    <BundleResource Include="Resources\apointment_icon.png" />
+    <BundleResource Include="Resources\estadistic_icon.png" />
+    <BundleResource Include="Resources\inventory_icon.png" />
+    <BundleResource Include="Resources\maintenace_icon.png" />
+    <BundleResource Include="Resources\pacient_icon.png" />
+    <BundleResource Include="Resources\accounts_dashboard_icon.png" />
+    <BundleResource Include="Resources\appointment_dashboard_icon.png" />
+    <BundleResource Include="Resources\patient_dashboard_icon.png" />
+    <BundleResource Include="Resources\statistic_dashboard_icon.png" />
   </ItemGroup>
   <Import Project="..\SCD_Mobile\SCD_Mobile.projitems" Label="Shared" Condition="Exists('..\SCD_Mobile\SCD_Mobile.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

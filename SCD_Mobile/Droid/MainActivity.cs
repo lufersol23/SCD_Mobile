@@ -24,6 +24,8 @@ namespace SCD_Mobile.Droid
             App.ScreenWidth = (int)(Resources.DisplayMetrics.WidthPixels / Resources.DisplayMetrics.Density);
 
             LoadApplication(new App());
+
+            //Window.SetStatusBarColor(Android.Graphics.Color.Argb(43, 288, 254, 255));
         }
     }
 }

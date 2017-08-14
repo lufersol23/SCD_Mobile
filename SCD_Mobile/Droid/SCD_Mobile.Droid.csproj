@@ -111,6 +111,17 @@
     <AndroidResource Include="Resources\drawable\menu_header_background.png" />
     <AndroidResource Include="Resources\drawable\default_female_user.png" />
     <AndroidResource Include="Resources\drawable\default_male_user.png" />
+    <AndroidResource Include="Resources\drawable\accounts_icon.png" />
+    <AndroidResource Include="Resources\drawable\apointment_icon.png" />
+    <AndroidResource Include="Resources\drawable\estadistic_icon.png" />
+    <AndroidResource Include="Resources\drawable\home_icon.png" />
+    <AndroidResource Include="Resources\drawable\inventory_icon.png" />
+    <AndroidResource Include="Resources\drawable\maintenace_icon.png" />
+    <AndroidResource Include="Resources\drawable\pacient_icon.png" />
+    <AndroidResource Include="Resources\drawable\accounts_dashboard_icon.png" />
+    <AndroidResource Include="Resources\drawable\appointment_dashboard_icon.png" />
+    <AndroidResource Include="Resources\drawable\patient_dashboard_icon.png" />
+    <AndroidResource Include="Resources\drawable\statistic_dashboard_icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />

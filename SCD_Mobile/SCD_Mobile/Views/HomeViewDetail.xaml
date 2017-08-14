@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="SCD_Mobile.Views.HomeViewDetail">
-    
-	<StackLayout>
-        <Label Text="DETAIL"/>
-    </StackLayout>
-    
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SCD_Mobile.Views.HomeViewDetail">
+    <AbsoluteLayout>
+        <RelativeLayout Padding="0">
+            <!-- Background -->
+            <Image x:Name="imgBG"
+                Aspect="AspectFill"
+                Source="menu_header_background.png"
+                RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                RelativeLayout.HeightConstraint= "150">
+            </Image>
+        </RelativeLayout>
+
+        <StackLayout HeightRequest="100" 
+                     AbsoluteLayout.LayoutBounds=".5,.20, 300, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Orientation="Horizontal">
+            <!--Appointment Container-->
+            <Frame Padding="0,0,0,0"  
+                    HorizontalOptions="FillAndExpand" 
+                    OutlineColor="Transparent" 
+                    HasShadow="True">        
+                    <StackLayout HeightRequest="100" BackgroundColor="White" Orientation="Horizontal">
+                       <BoxView WidthRequest="3" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="#0088cc"/>
+                       <Image Source="appointment_dashboard_icon.png"/>
+                       <Label Text="Citas" TextColor="#4a4a4a" Font="14" VerticalOptions="Center"/>
+                    </StackLayout>
+            </Frame>
+            <!--Analitycs Container-->
+            <Frame Padding="0,0,0,0"  
+                    HorizontalOptions="FillAndExpand" 
+                    OutlineColor="Transparent" 
+                    HasShadow="True">           
+                    <StackLayout HeightRequest="100" BackgroundColor="White" Orientation="Horizontal">
+                        <BoxView WidthRequest="3" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="#2baab1"/> 
+                        <Image Source="statistic_dashboard_icon.png"/>
+                        <Label Text="Estadistica" TextColor="#4a4a4a" Font="14" VerticalOptions="Center"/>
+                    </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout HeightRequest="100" 
+                     AbsoluteLayout.LayoutBounds=".5,.45, 300, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Orientation="Horizontal">
+             <Frame Padding="0,0,0,0"  
+                    HorizontalOptions="FillAndExpand" 
+                    OutlineColor="Transparent" 
+                    HasShadow="True">        
+                    <StackLayout HeightRequest="100" BackgroundColor="White" Orientation="Horizontal">
+                        <BoxView WidthRequest="3" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="#e36159"/> 
+                        <Image Source="accounts_dashboard_icon.png"/>
+                        <Label Text="Cuentas" TextColor="#4a4a4a" Font="14" VerticalOptions="Center"/>
+                    </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout HeightRequest="100" 
+                     AbsoluteLayout.LayoutBounds=".5,.70, 300, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Orientation="Horizontal">
+             <Frame Padding="0,0,0,0"  
+                    HorizontalOptions="FillAndExpand" 
+                    OutlineColor="Transparent"
+                    HasShadow="True">        
+                    <BoxView HeightRequest="50" WidthRequest="20" BackgroundColor="Red"/>
+                    <StackLayout HeightRequest="100" BackgroundColor="White" Orientation="Horizontal">
+                        <BoxView WidthRequest="3" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="#734ba9"/> 
+                        <Image Source="patient_dashboard_icon.png"/>
+                        <Label Text="Pacientes" TextColor="#4a4a4a" Font="14" VerticalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout HeightRequest="20" 
+                     BackgroundColor="#9b9b9b"
+                     AbsoluteLayout.LayoutBounds="0,1, 500, 50"
+                     Opacity=".5"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     Orientation="Horizontal">
+        </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>

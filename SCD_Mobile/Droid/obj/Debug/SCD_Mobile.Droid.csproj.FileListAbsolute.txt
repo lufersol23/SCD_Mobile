@@ -57,3 +57,13 @@
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/default_female_user.png
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/default_male_user.png
 /Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/home_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/accounts_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/apointment_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/estadistic_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/inventory_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/maintenace_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/pacient_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/accounts_dashboard_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/appointment_dashboard_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/patient_dashboard_icon.png
+/Users/carlosmendez/OutOfCloud/Projects/SCD_Mobile/SCD_Mobile/Droid/obj/Debug/res/drawable/statistic_dashboard_icon.png

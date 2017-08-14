@@ -5,7 +5,7 @@
             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
             Title="Sistema Clinica Dental">
     <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" Android="0, 0"/>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 0, 0, 0" Android="0, 0"/>
     </ContentPage.Padding>
     <RelativeLayout Padding="0">
     <!-- Background -->
@@ -16,7 +16,8 @@
         RelativeLayout.HeightConstraint= "200">
     </Image>
     	<StackLayout RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                     RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}" Orientation="Vertical">
+                     RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}" 
+                     Orientation="Vertical">
               <ListView x:Name="MenuItemsListView"                
                           SeparatorVisibility="None"
                           HasUnevenRows="true"
@@ -42,19 +43,26 @@
                 <!--Menu Item List-->
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell Height="35" ImageSource="{Binding IconPath}" Text="{Binding Title}" TextColor="#4a4a4a" />
+                        <ImageCell  Height="35" ImageSource="{Binding IconPath}" Text="{Binding Title}" TextColor="#4a4a4a" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
                 <ListView.Footer>
-                    <StackLayout x:Name="FooterWrapper"
-                                   Spacing="0"
-                                   VerticalOptions="End"
-                                   HorizontalOptions="Fill">
-                        <!--Logout Button-->
-                        <Button Text="Cerrar Sesion" Margin="0,150,0,0" TextColor="#FFF" BackgroundColor="#6806d6" BorderRadius="25"/>
-                    </StackLayout>
+                    
                 </ListView.Footer>
             </ListView>
+            <StackLayout Spacing="0"
+                        Margin="0,0,0,25"
+                        VerticalOptions="EndAndExpand"
+                        HorizontalOptions="Fill">
+                        <!--Logout Button-->
+                        <Button Text="Cerrar Sesion" 
+                                VerticalOptions="End" 
+                                TextColor="#fff" 
+                                Font="Bold" 
+                                BackgroundColor="#4a4a4a" 
+                                Margin="25,10"
+                                BorderRadius="25"/>
+            </StackLayout>
         </StackLayout>
     </RelativeLayout>
 </ContentPage>
